@@ -7,27 +7,58 @@
 </head>
 <body>
     <header>
-        <h1>Feast</h1>
+        <h1>(Working Title)</h1>
         <nav>
             <ul style="list-style: none;">
-                <li>Home</li>
-                <li>Blog</li>
-                <li>FAQ</li>
-                <li>Store</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="store.html">Merch</a></li>
             </ul>
         </nav>
-        <form action="#">
+        <form action="">
             <label for="lang"></label>
             <select id="lang" name="languages">
               <option value="english">EN</option>
               <option value="indonesian">ID</option>
             </select>
-            <input type="submit" value="Submit" />
       </form>
     </header>
 
-    <main>
+    <main style="width: 50%;">
+        <section id="desc" name="description">
+            <iframe width="860" height="540" src="https://www.youtube.com/embed/d18W-zCSUVs?si=MXdqJ8kSUIYOdhJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>(Working Title) is a story set in an apocalyptic world after a slow environmental deterioration, forcing the remaining humans to search for new ways of surviving.</p>
+        </section>
+        <section id="char" name="character">
+            <h2>Main Characters</h2>
+            <figure>
+                <img src="img/charfix.jpg" alt="main characters" width="100%">
+                <figcaption style="text-align: center;">Peach (left); Kiwi (right)</figcaption>
+            </figure>
+            <table style="width: 100%%;">
+                <tr>
+                    <td><img src="img/ges3.png" alt="peach" width="100%"></td>
+                    <td><img src="img/ges1.png" alt="kiwi" width="100%"></td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, ea ut officia magni sint neque cum. Autem architecto necessitatibus vero modi quibusdam! Similique illo nisi dicta alias consequatur voluptas eaque!</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis pariatur expedita eum ratione dignissimos incidunt fugiat enim ad. Culpa voluptatem natus praesentium saepe repudiandae eum provident! Vero magni quam odio.</td>
+                </tr>
+            </table> 
+        </section> 
         
-    </main>   
+        <section>
+            <h3>Join the newsletter!</h3>
+            <form action="" method="get">
+                    <input type="text" id="name" name="person_name" placeholder="Your name here...">
+                    <input type="email" id="email" name="person_email" placeholder="Your email here...">
+                    <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        ini footer
+    </footer>   
 </body>
 </html>
