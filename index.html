@@ -104,12 +104,16 @@
                 <label for="email"></label>
                     <input type="email" id="email" name="person_email" placeholder="Your email here...">
                 <p>Please specify your role:</p>
-                    <input type="radio" id="inarticleidual" name="role" value="inarticleidual">
-                    <label for="corporate">Inarticleidual</label>
+                    <input type="radio" id="individual" name="role" value="individual">
+                    <label for="individual">Individual</label>
                     <input type="radio" id="corporate" name="role" value="corporate"> 
-                    <label for="inarticleidual">Corporate</label><br>  
+                    <label for="corporate">Corporate</label><br>
+                    <br>
+                    <input type="checkbox" id="subscription" name="sub" value="true">
+                    <label for="subscription">I want to receive update newsletter!</label><br>
+                    <br>  
                 <label for="message"></label>
-                <textarea id="w3review" name="w3review" rows="4" cols="50">Enter your message here...</textarea>
+                <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
                 <br>
                 <button type="submit">Send!</button>
             </form>
