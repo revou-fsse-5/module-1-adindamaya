@@ -11,26 +11,32 @@
 </head>
 <body>
     <header class="header-container">
-        <h1>
-            <a href="index.html">
-              <img style="max-width: 20%" src="img/logo.jpg" alt="Series Logo"/>
-            </a>
-          </h1>
-        <nav>
-            <ul style="list-style: none;">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <form class="language" action="">
-            <label for="lang"></label>
-            <select id="lang" name="languages">
-              <option value="english">EN</option>
-              <option value="indonesian">ID</option>
-            </select>
-      </form>
+        <div class ="header-content">
+            <div class="logo">
+                <h1>
+                    <a href="index.html">
+                    <img style="width: 100%;" src="img/logo.jpg" alt="Series Logo"/>
+                    </a>
+                </h1>
+            </div> 
+            <nav>
+                <ul class="navbar" style="list-style: none;">
+                    <div class="menu"><li><a href="index.html">Home</a></li></div>
+                    <div class="menu"><li><a href="blog.html">Blog</a></li></div>
+                    <div class="menu"><li><a href="faq.html">FAQ</a></li></div>
+                    <div class="menu"><li><a href="contact.html">Contact</a></li></div>
+                    <div class="menu"><li>
+                        <form class="language" action="">
+                            <label for="lang"></label>
+                            <select id="lang" name="languages">
+                            <option value="english">EN</option>
+                            <option value="indonesian">ID</option>
+                            </select>
+                        </form>
+                    </li></div>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main style="width: 68%;">
