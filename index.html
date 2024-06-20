@@ -11,38 +11,38 @@
 </head>
 <body>
     <header class="header-container">
-        <div class ="header-content">
-            <div class="logo">
+        <section class ="grid-like">
+            <section class="logo">
                 <h1>
                     <a href="index.html">
-                    <img style="width: 100%;" src="img/logo.jpg" alt="Series Logo"/>
+                    <img class="wide" src="img/logo.jpg" alt="Series Logo"/>
                     </a>
                 </h1>
-            </div> 
-            <nav>
-                <ul class="navbar" style="list-style: none;">
-                    <div class="menu"><li><a href="index.html">Home</a></li></div>
-                    <div class="menu"><li><a href="blog.html">Blog</a></li></div>
-                    <div class="menu"><li><a href="faq.html">FAQ</a></li></div>
-                    <div class="menu"><li><a href="contact.html">Contact</a></li></div>
-                    <div class="menu"><li>
-                        <form class="language" action="">
-                            <label for="lang"></label>
-                            <select id="lang" name="languages">
-                            <option value="english">EN</option>
-                            <option value="indonesian">ID</option>
-                            </select>
-                        </form>
-                    </li></div>
+            </section>
+            <nav class="menu">
+                <ul style="list-style: none;">
+                    <section><li><a href="index.html">HOME</a></li></section>
+                    <section><li><a href="blog.html">BLOG</a></li></section>
+                    <section><li><a href="faq.html">FAQ</a></li></section>
+                    <section><li><a href="contact.html">CONTACT</a></li></section>
                 </ul>
             </nav>
-        </div>
+            <section class="language-select">
+                <form class="language" action="">
+                    <label for="lang"></label>
+                    <select id="lang" name="languages">
+                    <option value="english">EN</option>
+                    <option value="indonesian">ID</option>
+                    </select>
+                </form>
+            </section> 
+        </section>
     </header>
 
-    <main style="width: 68%;">
+    <main>
         <section id="home" name="description">
             <iframe width="1200px" height="700px" src="https://www.youtube.com/embed/d18W-zCSUVs?si=MXdqJ8kSUIYOdhJb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="aspect-ratio: 16 / 9; width: 100% !important;"></iframe>
-            <p style="font-size: 24pt;"><b>SkyBound</b> (Working Title) is a story set in an apocalyptic world after a slow environmental deterioration, forcing the remaining humans to search for new ways of surviving.</p>
+            <p><b>SkyBound</b> (Working Title) is a story set in an apocalyptic world after a slow environmental deterioration, forcing the remaining humans to search for new ways of surviving.</p>
         </section>
         <section id="blog" name="devblog">
            <article class = "section-title"><h2>Development Blog</h2></article>
@@ -119,7 +119,7 @@
                     <label for="subscription">I want to receive update newsletter!</label><br>
                     <br>  
                 <label for="message"></label>
-                <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
+                <textarea style="width: 98%;" id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
                 <br>
                 <button type="submit">Send!</button>
             </form>
