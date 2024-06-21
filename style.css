@@ -126,6 +126,41 @@ iframe {
     border-width: 100%;
 }
 
+.contact{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.message {
+    display: flex;
+    padding: 1rem;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(184, 184, 184);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    border-style: none;
+    border-radius: 10px;
+    padding: 0.8rem;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold ;
+    font-size: medium;
+}
+
+button:hover {
+    box-shadow: 0 2px 4px 0 rgb(134, 134, 134) inset, 0 4px 4px 0 rgb(134, 134, 134);
+}
+
 footer{
     position: fixed;
     left: 0;

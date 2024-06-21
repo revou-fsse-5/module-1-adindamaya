@@ -104,25 +104,31 @@
         
         <section id="contact">
             <article class = "section-title"><h2>Contact us!</h2></article>
-            <!-- <form action="" method="get"> -->
-                <label for="name"></label>
-                    <input type="text" id="name" name="person_name" placeholder="Your name here...">
-                <label for="email"></label>
-                    <input type="email" id="email" name="person_email" placeholder="Your email here...">
-                <p>Please specify your role:</p>
-                    <input type="radio" id="individual" name="role" value="individual">
-                    <label for="individual">Individual</label>
-                    <input type="radio" id="corporate" name="role" value="corporate"> 
-                    <label for="corporate">Corporate</label><br>
-                    <br>
-                    <input type="checkbox" id="subscription" name="sub" value="true">
-                    <label for="subscription">I want to receive update newsletter!</label><br>
-                    <br>  
-                <label for="message"></label>
-                <textarea style="width: 98%;" id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
-                <br>
-                <button type="submit">Send!</button>
-            </form>
+                <section class="contact">
+                    <section class="message">
+                        <form action="" method="get">
+                            <label for="name"></label>
+                                <input type="text" id="name" name="person_name" placeholder="Your name here...">
+                            <label for="email"></label>
+                                <input type="email" id="email" name="person_email" placeholder="Your email here...">
+                            <p>Please specify your role:</p>
+                                <input type="radio" id="individual" name="role" value="individual">
+                                <label for="individual">Individual</label>
+                                <input type="radio" id="corporate" name="role" value="corporate"> 
+                                <label for="corporate">Corporate</label><br>
+                                <br>    
+                            <label for="message"></label>
+                                <textarea style="width: 100%;" id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
+                                <br>
+                            <input type="checkbox" id="subscription" name="sub" value="true">
+                                <label for="subscription">I want to receive update newsletter!</label><br>
+                                <br> 
+                            <section class="button"> 
+                                <button type="submit">Send!</button>
+                            </section>   
+                        </form>
+                </section>
+            </section>
         </section>
     </main>
 
